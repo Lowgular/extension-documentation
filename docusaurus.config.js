@@ -9,7 +9,7 @@ const config = {
   title: 'Lowgular Documentation',
   tagline: 'Make Better Angular Apps Faster',
   url: 'https://www.lowgular.io',
-  baseUrl: '/',
+  baseUrl: '/extension-documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
