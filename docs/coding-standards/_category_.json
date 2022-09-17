@@ -1,0 +1,8 @@
+{
+  "label": "Configure Coding Standards",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "You can configure the Create New... list. By default we are loading simple 3 entities: Component, Model and Service. But this is only the begining, learn some of the fundamentals below to get inspired"
+  }
+}

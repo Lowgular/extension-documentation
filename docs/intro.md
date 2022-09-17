@@ -4,44 +4,38 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Lowgular in less than 5 minutes**.
+
+We put a lot of effort to make your Angular development easier, we have designed a lot of features that help you write a better Angular apps faster.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Get started by **downloading a plugin** from the Marketplace.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Now you have a few options:
 
-### What you'll need
+### Create New...
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Right click in the project tree, select `New` > <img src="https://avatars.githubusercontent.com/u/109138416" width="20"></img> `Create New...`
 
-## Generate a new site
+Then you will see a list of entities to create.
 
-Generate a new Docusaurus site using the **classic template**.
+The default setup ships with a simple architecture: Component, Model and Service.
 
-The classic template will automatically be added to your project after you run the command:
+You can configure the list, head in to the **[coding standards configuration](coding-standards/intro.md)** section for more info.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### Actions...
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Open generated typescript or html file in the editor, then right click on it and select: <img src="https://avatars.githubusercontent.com/u/109138416" width="20"></img> `Actions...`
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Then you will see a list of with available actions.
 
-## Start your site
+The actions will differ depending on what type of file is open in the editor.
 
-Run the development server:
+You can explore more about actions when you head in to the **[actions](actions/intro.md)** section
 
-```bash
-cd my-website
-npm run start
-```
+### Create Library
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+You can also create a library that will already setup a linter and testing targets as well scaffold some library code for you.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+In a basic setup, it is not very useful because everything is created inside of an App project type, however if you decide to **[configure your coding standards](coding-standards/intro.md)** then you it becomes very useful
