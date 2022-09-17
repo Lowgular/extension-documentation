@@ -1,6 +1,6 @@
 # Lowgular
 
-This is a the website for [Lowgular Documentation](https://lowgular.github.io/extension-documantation/).
+This is a the website for [Lowgular Documentation](https://lowgular.github.io/extension-documentation/).
 
 <p style="text-align: center;"><img src="https://avatars.githubusercontent.com/u/109138416" width="450"></p>
 
