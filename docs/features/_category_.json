@@ -1,0 +1,8 @@
+{
+  "label": "Features",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "There are many actions that you can take in order to speed up your Angular development. Here are the categories that contain multiple actions depending on the context"
+  }
+}

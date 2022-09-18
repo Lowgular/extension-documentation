@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Lowgular Intro
 
 Let's discover **Lowgular in less than 5 minutes**.
 
@@ -18,6 +18,10 @@ Now you have a few options:
 
 Right click in the project tree, select `New` > <img src="https://avatars.githubusercontent.com/u/109138416" width="20"></img> `Create New...`
 
+Or you can use a shortcut, in the project explorer and press `Ctrl + Shift + D` (`Cmd + Shift + D` on Mac)
+
+![Create New](./img/create-new.png)
+
 Then you will see a list of entities to create.
 
 The default setup ships with a simple architecture: Component, Model and Service.
@@ -28,11 +32,15 @@ You can configure the list, head in to the **[coding standards configuration](ca
 
 Open generated typescript or html file in the editor, then right click on it and select: <img src="https://avatars.githubusercontent.com/u/109138416" width="20"></img> `Actions...`
 
+Or you can use a shortcut, in the editor and press `Ctrl + Shift + X` (`Cmd + Shift + X` on Mac)
+
+![Actions](./img/actions.png)
+
 Then you will see a list of with available actions.
 
 The actions will differ depending on what type of file is open in the editor.
 
-You can explore more about actions when you head in to the **[actions](category/available-actions)** section
+You can explore more about actions when you head in to the **[features](category/features)** section
 
 ### Create Library
 
