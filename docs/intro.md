@@ -36,7 +36,7 @@ Then you will see a list of entities to create.
 
 The default setup ships with a simple architecture: Component, Model and Service.
 
-You can configure the list, head in to the **[coding standards configuration](category/configure-coding-standards)** section for more info.
+You can configure the list, head in to the **[configuration section](category/configuration)** for more info.
 
 ### Actions...
 
@@ -56,4 +56,4 @@ You can explore more about actions when you head in to the **[features](category
 
 You can also create a library that will already setup a linter and testing targets as well scaffold some library code for you.
 
-In a basic setup, it is not very useful because everything is created inside of an App project type, however if you decide to **[configure your coding standards](category/configure-coding-standards)** then you it becomes very useful. Once you do so, head in to **[library section](features/library)** for more info.
+In a basic setup, it is not very useful because everything is created inside of an App project type, however if you decide to **[configurate your workspace](category/configuration)** then you it becomes very useful. Once you do so, head in to **[library section](features/library)** for more info.
