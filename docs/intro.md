@@ -4,13 +4,23 @@ sidebar_position: 1
 
 # Lowgular Intro
 
-Let's discover **Lowgular in less than 5 minutes**.
+Let's discover **Lowgular in less than 3 minutes**.
 
 We put a lot of effort to make your Angular development easier, we have designed a lot of features that help you write a better Angular apps faster.
+
+We also created a comprehensive set of resources so you can get started with Lowgular fast.
+
+### Prerequisites
+
+You need to have Webstorm or another IDE from IntelliJ that supports Javascript installed
+
+`VSCode Version comming soon...`
 
 ## Getting Started
 
 Get started by **downloading a plugin** from the Marketplace.
+
+![IntelliJ Marketplace](./img/marketplace.png)
 
 Now you have a few options:
 
@@ -46,4 +56,4 @@ You can explore more about actions when you head in to the **[features](category
 
 You can also create a library that will already setup a linter and testing targets as well scaffold some library code for you.
 
-In a basic setup, it is not very useful because everything is created inside of an App project type, however if you decide to **[configure your coding standards](category/configure-coding-standards)** then you it becomes very useful
+In a basic setup, it is not very useful because everything is created inside of an App project type, however if you decide to **[configure your coding standards](category/configure-coding-standards)** then you it becomes very useful. Once you do so, head in to **[library section](features/library)** for more info.
