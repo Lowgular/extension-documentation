@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Better Angular Apps',
+    title: 'Better Angular Apps 😎',
     // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -13,7 +13,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Faster Development',
+    title: 'Faster Development 🏎️',
     // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -22,7 +22,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Extensible',
+    title: 'Extensible ⚙️',
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
