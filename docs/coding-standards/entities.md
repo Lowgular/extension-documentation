@@ -14,6 +14,16 @@ These will appear in the `Create New...` list.
 
 ### Type
 
+#### ANGULAR_COMPONENT
+
+#### DATA_STRUCTURE
+
+#### SERVICE
+
+#### OBJECT
+
+#### ABSTRACTION
+
 ### Suffix
 
 ### Folder
