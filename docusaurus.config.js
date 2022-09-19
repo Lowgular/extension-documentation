@@ -113,4 +113,8 @@ const config = {
     }),
 };
 
-module.exports = config;
+module.exports = {
+  themeConfig: {
+    metadata: [{name: 'keywords', content: 'angular, extension, angular extension, learn programming'}],
+  },
+};
