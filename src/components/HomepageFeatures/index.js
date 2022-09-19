@@ -13,7 +13,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Faster Developement',
+    title: 'Faster Development',
     // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
