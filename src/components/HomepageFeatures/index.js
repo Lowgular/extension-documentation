@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Better Angular Apps 😎',
-    Svg: require('../../static/img/Extensible.svg').default,
+    Svg: require('@site/static/img/betterapps.svg').default,
     description: (
       <>
         We make sure that generated code is of the highest quality. We focus a lot on design and architectural patterns. We also put a lot of effort to make sure that your app is always working, no matter the configuration.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Faster Development 🏎️',
-    Svg: require('../../static/img/FasterDevelopment.svg').default,
+    Svg: require('@site/static/img/faster.svg').default,
     description: (
       <>
         Coding apps in Angular can be challenging, there are so many things to learn in order to get started. Not anymore! We give you easy to use right click interface so you can focus on your app features and we make sure to generate the right code for you.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Extensible ⚙️',
-    Svg: require('../../static/img/BetterAngularApps.svg').default,
+    Svg: require('@site/static/img/extensible.svg').default,
     description: (
       <>
         Extend or customize your workspace with defined coding standards and design system, you can make it simple or very advanced. There are no limits to your creativity, so use it to configure Lowgular the way you like!
