@@ -399,8 +399,7 @@ You might not need it for simple cases, but it scales very well
     "httpClient": {
       "id": "httpClient",
       "type": "HttpClient",
-      "module": "@angular/common/http",
-      "genericTo": "responseObject"
+      "module": "@angular/common/http"
     }
   },
   "entities": {
