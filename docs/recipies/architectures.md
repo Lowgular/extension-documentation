@@ -418,28 +418,28 @@ You might not need it for simple cases, but it scales very well
     },
     "directive": {
       "id": "directive",
-      "type": "ANGULAR_DIRECTIVE",
+      "type": "ANGULAR",
       "suffix": "Directive",
       "folder": "adapters/primary/directives/$name$",
       "insideOf": "Lib"
     },
     "resolver": {
       "id": "resolver",
-      "type": "ANGULAR_RESOLVER",
+      "type": "ANGULAR",
       "suffix": "Resolver",
       "folder": "adapters/primary/resolvers/$name$",
       "insideOf": "Lib"
     },
     "guard": {
       "id": "guard",
-      "type": "ANGULAR_GUARD",
+      "type": "ANGULAR",
       "suffix": "Guard",
       "folder": "adapters/primary/guards/$name$",
       "insideOf": "Lib"
     },
     "eventHandler": {
       "id": "eventHandler",
-      "type": "ANGULAR_SERVICE",
+      "type": "ANGULAR",
       "suffix": "EventHandler",
       "folder": "adapters/primary/event-handlers/$name$",
       "insideOf": "Lib"
@@ -474,7 +474,7 @@ You might not need it for simple cases, but it scales very well
     },
     "state": {
       "id": "state",
-      "type": "ANGULAR_SERVICE",
+      "type": "ANGULAR",
       "suffix": "State",
       "folder": "application/state",
       "insideOf": "Lib"
@@ -523,7 +523,7 @@ You might not need it for simple cases, but it scales very well
     },
     "dataService": {
       "id": "dataService",
-      "type": "ANGULAR_SERVICE",
+      "type": "ANGULAR",
       "suffix": "Service",
       "folder": "adapters/secondary/services",
       "insideOf": "Lib"
@@ -537,7 +537,7 @@ You might not need it for simple cases, but it scales very well
     },
     "storage": {
       "id": "storage",
-      "type": "ANGULAR_SERVICE",
+      "type": "ANGULAR",
       "suffix": "Storage",
       "folder": "adapters/secondary/storages",
       "insideOf": "Lib"
