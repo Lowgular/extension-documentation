@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 const FeatureList = [
   {
     title: "Better Angular Apps 😎",
-    Svg: require("/static/img/betterapps.svg").default,
+    Svg: require("@site/static/img/betterapps.svg").default,
     description: (
       <>
         We make sure that generated code is of the highest quality. We focus a
@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: "Faster Development 🏎️",
-    Svg: require("/static/img/faster.svg").default,
+    Svg: require("@site/static/img/faster.svg").default,
     description: (
       <>
         Coding apps in Angular can be challenging, there are so many things to
@@ -28,7 +28,7 @@ const FeatureList = [
   },
   {
     title: "Extensible ⚙️",
-    Svg: require("/static/img/extensible.svg").default,
+    Svg: require("@site/static/img/extensible.svg").default,
     description: (
       <>
         Extend or customize your workspace with defined coding standards and
@@ -43,7 +43,9 @@ const FeatureList = [
 function Feature({ Svg, title, description }) {
   return (
     <div className={clsx("col col--4")}>
-      <div className="text--center"></div>
+      <div className="text--center">
+        <Svg className={styles.featureSvg} role="img" />
+      </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
