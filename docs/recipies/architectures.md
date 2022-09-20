@@ -418,21 +418,21 @@ You might not need it for simple cases, but it scales very well
     },
     "directive": {
       "id": "directive",
-      "type": "ANGULAR",
+      "type": "ANGULAR_DIRECTIVE",
       "suffix": "Directive",
       "folder": "adapters/primary/directives/$name$",
       "insideOf": "Lib"
     },
     "resolver": {
       "id": "resolver",
-      "type": "ANGULAR",
+      "type": "ANGULAR_RESOLVER",
       "suffix": "Resolver",
       "folder": "adapters/primary/resolvers/$name$",
       "insideOf": "Lib"
     },
     "guard": {
       "id": "guard",
-      "type": "ANGULAR",
+      "type": "ANGULAR_GUARD",
       "suffix": "Guard",
       "folder": "adapters/primary/guards/$name$",
       "insideOf": "Lib"
