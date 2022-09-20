@@ -439,7 +439,7 @@ You might not need it for simple cases, but it scales very well
     },
     "eventHandler": {
       "id": "eventHandler",
-      "type": "SERVICE",
+      "type": "ANGULAR_SERVICE",
       "suffix": "EventHandler",
       "folder": "adapters/primary/event-handlers/$name$",
       "insideOf": "Lib"
@@ -474,7 +474,7 @@ You might not need it for simple cases, but it scales very well
     },
     "state": {
       "id": "state",
-      "type": "SERVICE",
+      "type": "ANGULAR_SERVICE",
       "suffix": "State",
       "folder": "application/state",
       "insideOf": "Lib"
@@ -523,7 +523,7 @@ You might not need it for simple cases, but it scales very well
     },
     "dataService": {
       "id": "dataService",
-      "type": "SERVICE",
+      "type": "ANGULAR_SERVICE",
       "suffix": "Service",
       "folder": "adapters/secondary/services",
       "insideOf": "Lib"
@@ -537,7 +537,7 @@ You might not need it for simple cases, but it scales very well
     },
     "storage": {
       "id": "storage",
-      "type": "SERVICE",
+      "type": "ANGULAR_SERVICE",
       "suffix": "Storage",
       "folder": "adapters/secondary/storages",
       "insideOf": "Lib"
