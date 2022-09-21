@@ -4,4 +4,6 @@ sidebar_position: 10
 
 # Testing
 
-`Coming soon...`
+<p align="center">
+  <img src="https://www.mediwall.eu/images/underconstruction.png" />
+</p>
