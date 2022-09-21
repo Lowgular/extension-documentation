@@ -88,6 +88,10 @@ const config = {
                 label: 'Facebook',
                 href: 'https://www.facebook.com/Lowgular',
               },
+               {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/lowgular',
+              },
               {
                 label: 'Linkedin',
                 href: 'https://www.linkedin.com/company/lowgular',
