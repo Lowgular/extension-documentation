@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "Better Angular Apps 😎",
+    title: "Better Angular Apps",
     Svg: require("@site/static/img/betterapps.svg").default,
     description: (
       <>
@@ -15,7 +15,7 @@ const FeatureList = [
     ),
   },
   {
-    title: "Faster Development 🏎️",
+    title: "Faster Development",
     Svg: require("@site/static/img/faster.svg").default,
     description: (
       <>
@@ -27,7 +27,7 @@ const FeatureList = [
     ),
   },
   {
-    title: "Extensible ⚙️",
+    title: "Extensible",
     Svg: require("@site/static/img/extensible.svg").default,
     description: (
       <>
