@@ -56,7 +56,7 @@ The dependency graph:
     },
     "service": {
       "id": "service",
-      "type": "SERVICE",
+      "type": "ANGULAR_SERVICE",
       "suffix": "Service",
       "folder": "services",
       "insideOf": "App"
@@ -128,7 +128,7 @@ One can add an abstraction between a `Component` and a `Service`, let's call it 
     },
     "service": {
       "id": "service",
-      "type": "SERVICE",
+      "type": "ANGULAR_SERVICE",
       "suffix": "Service",
       "folder": "services",
       "insideOf": "App"
@@ -193,14 +193,14 @@ This will allow you to solve reactivity issues as well as start having all the b
     },
     "state": {
       "id": "state",
-      "type": "SERVICE",
+      "type": "ANGULAR_SERVICE",
       "suffix": "State",
       "folder": "states",
       "insideOf": "App"
     },
     "service": {
       "id": "service",
-      "type": "SERVICE",
+      "type": "ANGULAR_SERVICE",
       "suffix": "Service",
       "folder": "services",
       "insideOf": "App"
@@ -272,7 +272,7 @@ Maybe this could be a solution to your problems.
     },
     "queryHandler": {
       "id": "queryHandler",
-      "type": "SERVICE",
+      "type": "ANGULAR_SERVICE",
       "suffix": "QueryHandler",
       "folder": "application/query-handlers",
       "insideOf": "Lib"
@@ -286,21 +286,21 @@ Maybe this could be a solution to your problems.
     },
     "commandHandeler": {
       "id": "commandHandeler",
-      "type": "SERVICE",
+      "type": "ANGULAR_SERVICE",
       "suffix": "CommandHandler",
       "folder": "application/command-handlers",
       "insideOf": "Lib"
     },
     "eventStore": {
       "id": "eventStore",
-      "type": "SERVICE",
+      "type": "ANGULAR_SERVICE",
       "suffix": "EventStore",
       "folder": "infra/events",
       "insideOf": "Lib"
     },
     "service": {
       "id": "service",
-      "type": "SERVICE",
+      "type": "ANGULAR_SERVICE",
       "suffix": "Service",
       "folder": "infra/services",
       "insideOf": "Lib"
@@ -418,28 +418,28 @@ You might not need it for simple cases, but it scales very well
     },
     "directive": {
       "id": "directive",
-      "type": "ANGULAR",
+      "type": "ANGULAR_DIRECTIVE",
       "suffix": "Directive",
       "folder": "adapters/primary/directives/$name$",
       "insideOf": "Lib"
     },
     "resolver": {
       "id": "resolver",
-      "type": "ANGULAR",
+      "type": "ANGULAR_RESOLVER",
       "suffix": "Resolver",
       "folder": "adapters/primary/resolvers/$name$",
       "insideOf": "Lib"
     },
     "guard": {
       "id": "guard",
-      "type": "ANGULAR",
+      "type": "ANGULAR_GUARD",
       "suffix": "Guard",
       "folder": "adapters/primary/guards/$name$",
       "insideOf": "Lib"
     },
     "eventHandler": {
       "id": "eventHandler",
-      "type": "ANGULAR",
+      "type": "ANGULAR_SERVICE",
       "suffix": "EventHandler",
       "folder": "adapters/primary/event-handlers/$name$",
       "insideOf": "Lib"
@@ -474,7 +474,7 @@ You might not need it for simple cases, but it scales very well
     },
     "state": {
       "id": "state",
-      "type": "ANGULAR",
+      "type": "ANGULAR_SERVICE",
       "suffix": "State",
       "folder": "application/state",
       "insideOf": "Lib"
@@ -523,7 +523,7 @@ You might not need it for simple cases, but it scales very well
     },
     "dataService": {
       "id": "dataService",
-      "type": "ANGULAR",
+      "type": "ANGULAR_SERVICE",
       "suffix": "Service",
       "folder": "adapters/secondary/services",
       "insideOf": "Lib"
@@ -537,14 +537,14 @@ You might not need it for simple cases, but it scales very well
     },
     "storage": {
       "id": "storage",
-      "type": "ANGULAR",
+      "type": "ANGULAR_SERVICE",
       "suffix": "Storage",
       "folder": "adapters/secondary/storages",
       "insideOf": "Lib"
     },
     "eventDispatcher": {
       "id": "eventDispatcher",
-      "type": "SERVICE",
+      "type": "ANGULAR_SERVICE",
       "suffix": "EventDispatcher",
       "folder": "adapters/secondary/event-dispatchers",
       "insideOf": "Lib"
