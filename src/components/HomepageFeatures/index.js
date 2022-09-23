@@ -56,116 +56,122 @@ function Feature({ Svg, title, description }) {
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+    <div>
+      <section className={styles.features}>
+        <div className="container">
+          <div className="row">
+            {FeatureList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
-<table>
-  <thead>
-    <tr>
-      <td></td>
-      <th>Schematics CLI</th>
-      <th>Schematics Extension</th>
-      <th>Lowgular</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Automatic Module Generation</th>
-      <td>✔</td>
-      <td>✔</td>
-      <td>✔</td>
-    </tr>
-     <tr>
-      <th>Library Creation</th>
-      <td>✔</td>
-      <td>✔</td>
-      <td>✔</td>
-    </tr>
-     <tr>
-      <th>Define Where To Generate The Code</th>
-      <td>❌</td>
-      <td>✔</td>
-      <td>✔</td>
-    </tr>
-     <tr>
-      <th>NX Support</th>
-      <td>❌</td>
-      <td>✔</td>
-      <td>✔</td>
-    </tr>
-    <tr>
-      <th>Customisable Code Generation</th>
-      <td>❌</td>
-      <td>❌</td>
-      <td>✔</td>
-    </tr>
-    <tr>
-      <th>Folder Structure Sync</th>
-      <td>❌</td>
-      <td>❌</td>
-      <td>✔</td>
-    </tr>
-    <tr>
-      <th>Inject</th>
-      <td>❌</td>
-      <td>❌</td>
-      <td>✔</td>
-    </tr>
-    <tr>
-      <th>Automatic Module Management</th>
-      <td>❌</td>
-      <td>❌</td>
-      <td>✔</td>
-    </tr>
-    <tr>
-      <th>Design System Support</th>
-      <td>❌</td>
-      <td>❌</td>
-      <td>✔</td>
-    </tr>
-    <tr>
-      <th>Connecting Component & Modules</th>
-      <td>❌</td>
-      <td>❌</td>
-      <td>✔</td>
-    </tr>
-    <tr>
-      <th>Inteligent Suggestions</th>
-      <td>❌</td>
-      <td>❌</td>
-      <td>✔</td>
-    </tr>
-    <tr>
-      <th>Architecture as a code</th>
-      <td>❌</td>
-      <td>❌</td>
-      <td>✔</td>
-    </tr>
-    <tr>
-      <th>Support For Injection Token</th>
-      <td>❌</td>
-      <td>❌</td>
-      <td>✔</td>
-    </tr>
-    <tr>
-      <th>Advanced Routing</th>
-      <td>❌</td>
-      <td>❌</td>
-      <td>✔</td>
-    </tr>
-    <tr>
-      <th>RxJS Support</th>
-      <td>❌</td>
-      <td>❌</td>
-      <td>✔</td>
-    </tr>
-  <tbody>
-</table>
+      </section>
+      <section>
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <td></td>
+                <th>Schematics CLI</th>
+                <th>Schematics Extension</th>
+                <th>Lowgular</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Automatic Module Generation</th>
+                <td>✔</td>
+                <td>✔</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <th>Library Creation</th>
+                <td>✔</td>
+                <td>✔</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <th>Define Where To Generate The Code</th>
+                <td>❌</td>
+                <td>✔</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <th>NX Support</th>
+                <td>❌</td>
+                <td>✔</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <th>Customisable Code Generation</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <th>Folder Structure Sync</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <th>Inject</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <th>Automatic Module Management</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <th>Design System Support</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <th>Connecting Component & Modules</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <th>Inteligent Suggestions</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <th>Architecture as a code</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <th>Support For Injection Token</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <th>Advanced Routing</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <th>RxJS Support</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
   );
 }
