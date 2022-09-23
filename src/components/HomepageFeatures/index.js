@@ -65,5 +65,107 @@ export default function HomepageFeatures() {
         </div>
       </div>
     </section>
+<table>
+  <thead>
+    <tr>
+      <td></td>
+      <th>Schematics CLI</th>
+      <th>Schematics Extension</th>
+      <th>Lowgular</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Automatic Module Generation</th>
+      <td>✔</td>
+      <td>✔</td>
+      <td>✔</td>
+    </tr>
+     <tr>
+      <th>Library Creation</th>
+      <td>✔</td>
+      <td>✔</td>
+      <td>✔</td>
+    </tr>
+     <tr>
+      <th>Define Where To Generate The Code</th>
+      <td>❌</td>
+      <td>✔</td>
+      <td>✔</td>
+    </tr>
+     <tr>
+      <th>NX Support</th>
+      <td>❌</td>
+      <td>✔</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <th>Customisable Code Generation</th>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <th>Folder Structure Sync</th>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <th>Inject</th>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <th>Automatic Module Management</th>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <th>Inject</th>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <th>Inject</th>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <th>Inject</th>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <th>Inject</th>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <th>Inject</th>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <th>Inject</th>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✔</td>
+    </tr>
+    <tr>
+      <th>Inject</th>
+      <td>❌</td>
+      <td>❌</td>
+      <td>✔</td>
+    </tr>
+  <tbody>
+</table>
   );
 }
