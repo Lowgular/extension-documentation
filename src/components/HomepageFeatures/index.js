@@ -124,19 +124,19 @@ export default function HomepageFeatures() {
       <td>✔</td>
     </tr>
     <tr>
-      <th>Inject</th>
+      <th>Design System Support</th>
       <td>❌</td>
       <td>❌</td>
       <td>✔</td>
     </tr>
     <tr>
-      <th>Inject</th>
+      <th>Connecting Component & Modules</th>
       <td>❌</td>
       <td>❌</td>
       <td>✔</td>
     </tr>
     <tr>
-      <th>Inject</th>
+      <th>Inteligent Suggestions</th>
       <td>❌</td>
       <td>❌</td>
       <td>✔</td>
