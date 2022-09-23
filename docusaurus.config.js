@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Lowgular Documentation',
-  tagline: 'Make Better Angular Apps Faster',
+  tagline: 'Generate Better Angular Apps Faster',
   url: 'https://www.lowgular.io',
   baseUrl: '/extension-documentation/',
   onBrokenLinks: 'throw',
