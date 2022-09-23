@@ -142,25 +142,25 @@ export default function HomepageFeatures() {
       <td>✔</td>
     </tr>
     <tr>
-      <th>Inject</th>
+      <th>Architecture as a code</th>
       <td>❌</td>
       <td>❌</td>
       <td>✔</td>
     </tr>
     <tr>
-      <th>Inject</th>
+      <th>Support For Injection Token</th>
       <td>❌</td>
       <td>❌</td>
       <td>✔</td>
     </tr>
     <tr>
-      <th>Inject</th>
+      <th>Advanced Routing</th>
       <td>❌</td>
       <td>❌</td>
       <td>✔</td>
     </tr>
     <tr>
-      <th>Inject</th>
+      <th>RxJS Support</th>
       <td>❌</td>
       <td>❌</td>
       <td>✔</td>
