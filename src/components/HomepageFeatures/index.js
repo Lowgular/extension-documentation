@@ -66,7 +66,7 @@ export default function HomepageFeatures() {
           </div>
         </div>
       </section>
-      <section>
+      <section className={styles.table}>
         <div>
           <table>
             <thead>
