@@ -107,12 +107,12 @@ This will create a class with @Directive decorator and a [directive module](/doc
 
 This will create a class with @Injectable decorator and a [resolver module](/docs/coding-standards/modules#single-angular-modules) inside of `resolver-name.$SUFFIX$-module.ts` in a same folder.
 
-It will implement Resolve<void> interface
+It will implement Resolve<void\> interface
 
 #### ANGULAR_GUARD
 
 This will create a class with @Injectable decorator and a [guard module](/docs/coding-standards/modules#single-angular-modules) inside of `service-name.$SUFFIX$-module.ts` in a same folder.
-  
+
 It will implement CanActivate interface
 
 #### DATA_STRUCTURE
