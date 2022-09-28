@@ -10,6 +10,17 @@
   justify-content: center;
   padding: 2rem 0;
   width: 100%;
+  text-align: center;
+}
+
+th {
+  text-align: left;
+}
+
+thead {
+  background-color: #3b9cd8 !important;
+  color: #fff;
+  font-size: 20px;
 }
 
 .featureSvg {
