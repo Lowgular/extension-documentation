@@ -40,6 +40,13 @@ const FeatureList = [
   },
 ];
 
+function tableHeader({title}) {
+
+return (
+  <h2 className="table-header">Lowgular Benefits</h2>
+);
+}
+
 function Feature({ Svg, title, description }) {
   return (
     <div className={clsx("col col--4")}>
@@ -53,6 +60,7 @@ function Feature({ Svg, title, description }) {
     </div>
   );
 }
+
 
 export default function HomepageFeatures() {
   return (
