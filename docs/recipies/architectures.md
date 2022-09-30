@@ -18,12 +18,12 @@ The dependency graph:
 {
   "entityRelations": {
     "component": {
-      "model": "PROPERTY",
-      "service": "CONSTRUCTOR"
+      "model": ["PROPERTY"],
+      "service": ["CONSTRUCTOR"]
     },
     "service": {
-      "httpClient": "CONSTRUCTOR",
-      "model": "PARAMETER_AND_RETURN"
+      "httpClient": ["CONSTRUCTOR"],
+      "model": ["PARAMETER", "RETURN"]
     }
   },
   "external": {
@@ -79,16 +79,16 @@ One can add an abstraction between a `Component` and a `Service`, let's call it 
 {
   "entityRelations": {
     "component": {
-      "model": "PROPERTY",
-      "repository": "CONSTRUCTOR"
+      "model": ["PROPERTY"],
+      "repository": ["CONSTRUCTOR"]
     },
     "repository": {
-      "model": "PARAMETER_AND_RETURN"
+      "model": ["PARAMETER", "RETURN"]
     },
     "service": {
-      "httpClient": "CONSTRUCTOR",
-      "model": "PARAMETER_AND_RETURN",
-      "repository": "IMPLEMENTS"
+      "httpClient": ["CONSTRUCTOR"],
+      "model": ["PARAMETER", "RETURN"],
+      "repository": ["IMPLEMENTS"]
     }
   },
   "external": {
@@ -135,6 +135,7 @@ One can add an abstraction between a `Component` and a `Service`, let's call it 
     }
   }
 }
+
 ```
 
 ## Basic State
@@ -151,16 +152,16 @@ This will allow you to solve reactivity issues as well as start having all the b
 {
   "entityRelations": {
     "component": {
-      "state": "CONSTRUCTOR",
-      "model": "PROPERTY"
+      "state": ["CONSTRUCTOR"],
+      "model": ["PROPERTY"]
     },
     "state": {
-      "service": "CONSTRUCTOR",
-      "model": "PARAMETER_AND_RETURN"
+      "service": ["CONSTRUCTOR"],
+      "model": ["PARAMETER", "RETURN"]
     },
     "service": {
-      "httpClient": "CONSTRUCTOR",
-      "model": "PARAMETER_AND_RETURN"
+      "httpClient": ["CONSTRUCTOR"],
+      "model": ["PARAMETER", "RETURN"]
     }
   },
   "external": {
@@ -207,6 +208,7 @@ This will allow you to solve reactivity issues as well as start having all the b
     }
   }
 }
+
 ```
 
 ## CQRS: Command Query Responsibility Segregation
@@ -222,24 +224,27 @@ Maybe this could be a solution to your problems.
 ```
 {
   "entityRelations": {
+     "page": {
+      "component": ["HTML"]
+    },
     "component": {
-      "queryHandler": "CONSTRUCTOR",
-      "commandHandeler": "CONSTRUCTOR",
-      "query": "PROPERTY",
-      "command": "PROPERTY"
+      "queryHandler": ["CONSTRUCTOR"],
+      "commandHandeler": ["CONSTRUCTOR"],
+      "query": ["PROPERTY"],
+      "command": ["PROPERTY"]
     },
     "queryHandler": {
-      "eventStore": "CONSTRUCTOR",
-      "query": "RETURN"
+      "eventStore": ["CONSTRUCTOR"],
+      "query": ["RETURN"]
     },
     "commandHandeler": {
-      "service": "CONSTRUCTOR",
-      "eventStore": "CONSTRUCTOR",
-      "command": "PARAMETER"
+      "service": ["CONSTRUCTOR"],
+      "eventStore": ["CONSTRUCTOR"],
+      "command": ["PARAMETER"]
     },
     "service": {
-      "httpClient": "CONSTRUCTOR",
-      "response": "RETURN"
+      "httpClient": ["CONSTRUCTOR"],
+      "response": ["RETURN"]
     }
   },
   "external": {
@@ -311,9 +316,23 @@ Maybe this could be a solution to your problems.
       "suffix": "Response",
       "folder": "infra/responses",
       "insideOf": "Lib"
+    },
+    "page": {
+      "id": "page",
+      "type": "ANGULAR_COMPONENT",
+      "suffix": "Page",
+      "folder": "pages",
+      "insideOf": "App",
+      "config": {
+        "stylesExtension": "none",
+        "viewEncapsulation": "None",
+        "selector": "none",
+        "changeDetectionStrategy": "OnPush"
+      }
     }
   }
 }
+
 ```
 
 ## Hexagonal Architecture
@@ -330,69 +349,69 @@ You might not need it for simple cases, but it scales very well
 {
   "entityRelations": {
     "page": {
-      "component": "HTML"
+      "component": ["HTML"]
     },
     "component": {
-      "commandPort": "CONSTRUCTOR",
-      "queryPort": "CONSTRUCTOR",
-      "command": "PARAMETER",
-      "query": "PROPERTY"
+      "commandPort": ["CONSTRUCTOR"],
+      "queryPort": ["CONSTRUCTOR"],
+      "command": ["PARAMETER"],
+      "query": ["PROPERTY"]
     },
     "directive": {
-      "commandPort": "CONSTRUCTOR",
-      "queryPort": "CONSTRUCTOR",
-      "command": "PARAMETER",
-      "query": "PROPERTY"
+      "commandPort": ["CONSTRUCTOR"],
+      "queryPort": ["CONSTRUCTOR"],
+      "command": ["PARAMETER"],
+      "query": ["PROPERTY"]
     },
     "guard": {
-      "queryPort": "CONSTRUCTOR",
-      "query": "PROPERTY"
+      "queryPort": ["CONSTRUCTOR"],
+      "query": ["PROPERTY"]
     },
     "resolver": {
-      "commandPort": "CONSTRUCTOR",
-      "command": "PARAMETER"
+      "commandPort": ["CONSTRUCTOR"],
+      "command": ["PARAMETER"]
     },
     "eventHandler": {
-      "commandPort": "CONSTRUCTOR",
-      "command": "PARAMETER"
+      "commandPort": ["CONSTRUCTOR"],
+      "command": ["PARAMETER"]
     },
     "commandPort": {
-      "command": "PARAMETER"
+      "command": ["PARAMETER"]
     },
     "queryPort": {
-      "query": "RETURN"
+      "query": ["RETURN"]
     },
     "state": {
-      "command": "PARAMETER",
-      "query": "RETURN",
-      "commandPort": "IMPLEMENTS",
-      "queryPort": "IMPLEMENTS",
-      "contextPort": "CONSTRUCTOR",
-      "dtoPort": "CONSTRUCTOR",
-      "eventPort": "CONSTRUCTOR"
+      "command": ["PARAMETER"],
+      "query": ["RETURN"],
+      "commandPort": ["IMPLEMENTS"],
+      "queryPort": ["IMPLEMENTS"],
+      "contextPort": ["CONSTRUCTOR"],
+      "dtoPort": ["CONSTRUCTOR"],
+      "eventPort": ["CONSTRUCTOR"]
     },
     "contextPort": {
-      "context": "PARAMETER_AND_RETURN"
+      "context": ["PARAMETER", "RETURN"]
     },
     "dtoPort": {
-      "dto": "PARAMETER_AND_RETURN"
+      "dto": ["PARAMETER", "RETURN"]
     },
     "eventPort": {
-      "event": "PARAMETER"
+      "event": ["PARAMETER"]
     },
     "storage": {
-      "contextPort": "IMPLEMENTS",
-      "context": "PARAMETER_AND_RETURN"
+      "contextPort": ["IMPLEMENTS"],
+      "context": ["PARAMETER", "RETURN"]
     },
     "dataService": {
-      "dtoPort": "IMPLEMENTS",
-      "httpClient": "CONSTRUCTOR",
-      "dto": "PARAMETER_AND_RETURN",
-      "responseObject": "PARAMETER"
+      "dtoPort": ["IMPLEMENTS"],
+      "httpClient": ["CONSTRUCTOR"],
+      "dto": ["PARAMETER", "RETURN"],
+      "responseObject": ["PARAMETER"]
     },
     "eventDispatcher": {
-      "eventPort": "IMPLEMENTS",
-      "event": "PARAMETER"
+      "eventPort": ["IMPLEMENTS"],
+      "event": ["PARAMETER"]
     }
   },
   "external": {

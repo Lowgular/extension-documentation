@@ -44,10 +44,10 @@ Then you can use it in `entityRelations` config
 {
   "entityRelations": {
     "component": {
-      "activatedRoute": "CONSTRUCTOR"
+      "activatedRoute": ["CONSTRUCTOR"]
     }
   }
 }
 ```
 
-Now you  can **inject** activated route in the component
+Now you can **inject** activated route in the component

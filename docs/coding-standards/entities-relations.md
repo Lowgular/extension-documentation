@@ -12,19 +12,19 @@ Default Config:
 {
   "entityRelations": {
     "component": {
-      "model": "PROPERTY",
-      "service": "CONSTRUCTOR"
+      "model": ["PROPERTY"],
+      "service": ["CONSTRUCTOR"]
     },
     "service": {
-      "httpClient": "CONSTRUCTOR",
-      "model": "PARAMETER_AND_RETURN"
+      "httpClient": ["CONSTRUCTOR"],
+      "model": ["PARAMETER", "RETURN"]
     }
   }
 }
 
 ```
 
-The way it works is that each entity can be connected to another entity in a single way.
+The way it works is that each entity can be connected to another entity in a multiple ways.
 
 This is designed like this so you can avoid typos / mistakes and common architectural flaws like **circular dependencies**, **spaghetti code**, etc.
 
@@ -55,11 +55,6 @@ This will allow you to get a list of related entities when you [Add method](/doc
 ### PARAMETER
 
 `Coming soon...`
-
-### PARAMETER_AND_RETURN
-
-This is a combination of PARAMETER and RETURN types.
-Sometimes you want to relate a Data Structure or an Object in both ways.
 
 ### IMPLEMENTS
 
