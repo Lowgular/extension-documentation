@@ -28,18 +28,14 @@ The dependency graph:
   },
   "external": {
     "httpClient": {
-      "id": "httpClient",
       "type": "HttpClient",
       "module": "@angular/common/http"
     }
   },
   "entities": {
     "component": {
-      "id": "component",
       "type": "ANGULAR_COMPONENT",
-      "suffix": "Component",
       "folder": "components/$name$",
-      "insideOf": "App",
       "config": {
         "stylesExtension": "none",
         "viewEncapsulation": "None",
@@ -48,18 +44,10 @@ The dependency graph:
       }
     },
     "model": {
-      "id": "model",
-      "type": "DATA_STRUCTURE",
-      "suffix": "Model",
-      "folder": "models",
-      "insideOf": "App"
+      "type": "DATA_STRUCTURE"
     },
     "service": {
-      "id": "service",
-      "type": "ANGULAR_SERVICE",
-      "suffix": "Service",
-      "folder": "services",
-      "insideOf": "App"
+      "type": "ANGULAR_SERVICE"
     }
   }
 }
@@ -100,11 +88,8 @@ One can add an abstraction between a `Component` and a `Service`, let's call it 
   },
   "entities": {
     "component": {
-      "id": "component",
       "type": "ANGULAR_COMPONENT",
-      "suffix": "Component",
       "folder": "components/$name$",
-      "insideOf": "App",
       "config": {
         "stylesExtension": "none",
         "viewEncapsulation": "None",
@@ -113,25 +98,13 @@ One can add an abstraction between a `Component` and a `Service`, let's call it 
       }
     },
     "model": {
-      "id": "model",
-      "type": "DATA_STRUCTURE",
-      "suffix": "Model",
-      "folder": "models",
-      "insideOf": "App"
+      "type": "DATA_STRUCTURE"
     },
     "repository": {
-      "id": "repository",
-      "type": "ABSTRACTION",
-      "suffix": "Repository",
-      "folder": "repositories",
-      "insideOf": "App"
+      "type": "ABSTRACTION"
     },
     "service": {
-      "id": "service",
-      "type": "ANGULAR_SERVICE",
-      "suffix": "Service",
-      "folder": "services",
-      "insideOf": "App"
+      "type": "ANGULAR_SERVICE"
     }
   }
 }
@@ -166,18 +139,14 @@ This will allow you to solve reactivity issues as well as start having all the b
   },
   "external": {
     "httpClient": {
-      "id": "httpClient",
       "type": "HttpClient",
       "module": "@angular/common/http"
     }
   },
   "entities": {
     "component": {
-      "id": "component",
       "type": "ANGULAR_COMPONENT",
-      "suffix": "Component",
       "folder": "components/$name$",
-      "insideOf": "App",
       "config": {
         "stylesExtension": "none",
         "viewEncapsulation": "None",
@@ -186,25 +155,13 @@ This will allow you to solve reactivity issues as well as start having all the b
       }
     },
     "model": {
-      "id": "model",
-      "type": "DATA_STRUCTURE",
-      "suffix": "Model",
-      "folder": "models",
-      "insideOf": "App"
+      "type": "DATA_STRUCTURE"
     },
     "state": {
-      "id": "state",
-      "type": "ANGULAR_SERVICE",
-      "suffix": "State",
-      "folder": "states",
-      "insideOf": "App"
+      "type": "ANGULAR_SERVICE"
     },
     "service": {
-      "id": "service",
-      "type": "ANGULAR_SERVICE",
-      "suffix": "Service",
-      "folder": "services",
-      "insideOf": "App"
+      "type": "ANGULAR_SERVICE"
     }
   }
 }
@@ -224,7 +181,7 @@ Maybe this could be a solution to your problems.
 ```
 {
   "entityRelations": {
-     "page": {
+    "page": {
       "component": ["HTML"]
     },
     "component": {
@@ -249,16 +206,13 @@ Maybe this could be a solution to your problems.
   },
   "external": {
     "httpClient": {
-      "id": "httpClient",
       "type": "HttpClient",
       "module": "@angular/common/http"
     }
   },
   "entities": {
     "component": {
-      "id": "component",
       "type": "ANGULAR_COMPONENT",
-      "suffix": "Component",
       "folder": "presentation/components/$name$",
       "insideOf": "Lib",
       "config": {
@@ -269,59 +223,42 @@ Maybe this could be a solution to your problems.
       }
     },
     "query": {
-      "id": "query",
       "type": "DATA_STRUCTURE",
-      "suffix": "Query",
       "folder": "application/query-handlers",
       "insideOf": "Lib"
     },
     "queryHandler": {
-      "id": "queryHandler",
       "type": "ANGULAR_SERVICE",
-      "suffix": "QueryHandler",
       "folder": "application/query-handlers",
       "insideOf": "Lib"
     },
     "command": {
-      "id": "command",
       "type": "DATA_STRUCTURE",
-      "suffix": "Command",
       "folder": "application/command-handlers",
       "insideOf": "Lib"
     },
-    "commandHandeler": {
-      "id": "commandHandeler",
+    "commandHandler": {
       "type": "ANGULAR_SERVICE",
-      "suffix": "CommandHandler",
       "folder": "application/command-handlers",
       "insideOf": "Lib"
     },
     "eventStore": {
-      "id": "eventStore",
       "type": "ANGULAR_SERVICE",
-      "suffix": "EventStore",
       "folder": "infra/events",
       "insideOf": "Lib"
     },
     "service": {
-      "id": "service",
       "type": "ANGULAR_SERVICE",
-      "suffix": "Service",
       "folder": "infra/services",
       "insideOf": "Lib"
     },
     "response": {
-      "id": "response",
       "type": "DATA_STRUCTURE",
-      "suffix": "Response",
       "folder": "infra/responses",
       "insideOf": "Lib"
     },
     "page": {
-      "id": "page",
       "type": "ANGULAR_COMPONENT",
-      "suffix": "Page",
-      "folder": "pages",
       "insideOf": "App",
       "config": {
         "stylesExtension": "none",
@@ -332,6 +269,7 @@ Maybe this could be a solution to your problems.
     }
   }
 }
+
 
 ```
 

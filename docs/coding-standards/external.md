@@ -12,7 +12,6 @@ Default config is:
 {
   "external": {
     "httpClient": {
-      "id": "httpClient",
       "type": "HttpClient",
       "module": "@angular/common/http"
     }
@@ -30,7 +29,6 @@ Example of adding `ActivatedRoute`
 {
   "external": {
     "activatedRoute": {
-      "id": "activatedRoute",
       "type": "ActivatedRoute",
       "module": "@angular/router"
     }

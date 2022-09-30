@@ -47,17 +47,29 @@ Default config:
 
 ### Id
 
+**Optional** property.
+
+**Default:** key of the entity, eg. model, service.
+
 This is how Lowgular distinguishes between Entities configured.
 
 The entities key is an object and the key of this object **must** be the same as **id** inside the config.
 
 ### Suffix
 
+**Optional** property.
+
+**Default:** camelcase id of the entity, eg: Model, DtoPort.
+
 Suffix is uses to append a suffix to entitiy names as well as to created files.
 
 E.g. If you want to create a service with a suffix of `State` and name `Product`, it will create a class called `ProductState` inside of file `product.state.ts`
 
 ### Folder
+
+**Optional** property.
+
+**Default:** plural id of the entity, eg: models, services.
 
 You may specify where you want to generate your entities.
 
@@ -72,6 +84,10 @@ E.G. If I call give an entity name: `TestMe` and a folder setup: `entities/$name
 Therefore it will create entity files inside of `entities/test-me/something`.
 
 ### Type
+
+**Required** property.
+
+**Default:** none.
 
 There are a few types that are used. Play around with them and be creative. Your imagination is the only limit!
 
@@ -148,6 +164,10 @@ It should contain at least 1 method.
 There will be no module created because it is an interface, however it will be used by a connected [service module](/docs/coding-standards/modules#single-angular-modules) to provide injection tokens in implementing service class.
 
 ### Inside of
+
+**Optional** property.
+
+**Default:** App
 
 Entities are always created in projects. By default Angular CLI provides you with a single app, however it does not have to be this way, you may create [Libraries](/docs/features/library) which is a specific project type.
 
