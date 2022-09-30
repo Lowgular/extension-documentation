@@ -65,7 +65,7 @@ The dependency graph:
 }
 ```
 
-## CMRS: Component Model Repository Service
+<!-- ## CMRS: Component Model Repository Service
 
 Following the dependency inversion principle from SOLID.
 
@@ -136,7 +136,7 @@ One can add an abstraction between a `Component` and a `Service`, let's call it 
   }
 }
 
-```
+``` -->
 
 ## Basic State
 
@@ -335,7 +335,7 @@ Maybe this could be a solution to your problems.
 
 ```
 
-## Hexagonal Architecture
+<!-- ## Hexagonal Architecture
 
 This is by far the most flexible, extensible and de-coupled architecture we have worked with.
 
@@ -583,4 +583,4 @@ You might not need it for simple cases, but it scales very well
     }
   }
 }
-```
+``` -->
