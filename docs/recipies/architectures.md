@@ -19,7 +19,9 @@ The dependency graph:
   "entityRelations": {
     "component": {
       "model": ["PROPERTY"],
-      "service": ["CONSTRUCTOR"]
+      "service": ["CONSTRUCTOR"],
+      "router": ["CONSTRUCTOR"],
+      "activatedRoute": ["CONSTRUCTOR"]
     },
     "service": {
       "httpClient": ["CONSTRUCTOR"],
@@ -30,6 +32,14 @@ The dependency graph:
     "httpClient": {
       "type": "HttpClient",
       "module": "@angular/common/http"
+    },
+    "router": {
+      "type": "Router",
+      "module": "@angular/router"
+    },
+    "activatedRoute": {
+      "type": "ActivatedRoute",
+      "module": "@angular/router"
     }
   },
   "entities": {
@@ -51,6 +61,7 @@ The dependency graph:
     }
   }
 }
+
 ```
 
 <!-- ## CMRS: Component Model Repository Service
