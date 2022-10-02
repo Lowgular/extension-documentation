@@ -12,7 +12,7 @@ The dependency graph:
 
 ![CMS Diagram](./img/cms-architecture.png)
 
-`codings-standards.json`:
+`coding-standards.json`:
 
 ```
 {
@@ -72,7 +72,7 @@ One can add an abstraction between a `Component` and a `Service`, let's call it 
 
 ![CMRS Diagram](./img/cmrs-architecture.png)
 
-`codings-standards.json`:
+`coding-standards.json`:
 
 ```
 {
@@ -130,7 +130,7 @@ This will allow you to solve reactivity issues as well as start having all the b
 
 ![State Diagram](./img/state-architecture.png)
 
-`codings-standards.json`:
+`coding-standards.json`:
 
 ```
 {
@@ -187,7 +187,7 @@ Maybe this could be a solution to your problems.
 
 ![CQRS Diagram](./img/cqrs-architecture.png)
 
-`codings-standards.json`:
+`coding-standards.json`:
 
 ```
 {
@@ -292,7 +292,7 @@ You might not need it for simple cases, but it scales very well
 
 ![Hexagonal Diagram](./img/hexagonal-architecture.png)
 
-`codings-standards.json`:
+`coding-standards.json`:
 
 ```
 {
