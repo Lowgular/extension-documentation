@@ -1,42 +1,46 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Lowgular Documentation',
-  tagline: 'Generate Better Angular Apps Faster',
-  url: 'https://www.lowgular.io',
-  baseUrl: '/extension-documentation/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  title: "Lowgular Documentation",
+  tagline: "Generate Better Angular Apps Faster",
+  url: "https://www.lowgular.io",
+  baseUrl: "/extension-documentation/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'lowgular', // Usually your GitHub org/user name.
-  projectName: 'extension-documentation', // Usually your repo name.
+  organizationName: "lowgular", // Usually your GitHub org/user name.
+  projectName: "extension-documentation", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+        gtag: {
+          trackingID: "G-JWERR67ZRW",
+          anonymizeIP: true,
         },
       }),
     ],
@@ -46,64 +50,64 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Lowgular',
+        title: "Lowgular",
         logo: {
-          alt: 'Lowgular Logo',
-          src: 'img/logo.svg',
+          alt: "Lowgular Logo",
+          src: "img/logo.svg",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Tutorial",
           },
           {
-            href: 'https://github.com/lowgular',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/lowgular",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: "Tutorial",
+                to: "/docs/intro",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/c/lowgular',
+                label: "Stack Overflow",
+                href: "https://stackoverflow.com/c/lowgular",
               },
               {
-                label: 'Facebook',
-                href: 'https://www.facebook.com/Lowgular',
-              },
-               {
-                label: 'Instagram',
-                href: 'https://www.instagram.com/lowgular',
+                label: "Facebook",
+                href: "https://www.facebook.com/Lowgular",
               },
               {
-                label: 'Linkedin',
-                href: 'https://www.linkedin.com/company/lowgular',
+                label: "Instagram",
+                href: "https://www.instagram.com/lowgular",
+              },
+              {
+                label: "Linkedin",
+                href: "https://www.linkedin.com/company/lowgular",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/lowgular',
+                label: "GitHub",
+                href: "https://github.com/lowgular",
               },
             ],
           },
