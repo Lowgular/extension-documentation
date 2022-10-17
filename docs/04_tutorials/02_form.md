@@ -2,4 +2,4 @@
 sidebar_position: 2
 ---
 
-# Courses
+# How to make a form

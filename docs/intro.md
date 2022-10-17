@@ -51,9 +51,3 @@ Then you will see a list of with available actions.
 The actions will differ depending on what type of file is open in the editor.
 
 You can explore more about actions when you head in to the **[features](category/features)** section
-
-### Create Library
-
-You can also create a library that will already setup a linter and testing targets as well scaffold some library code for you.
-
-In a basic setup, it is not very useful because everything is created inside of an App project type, however if you decide to **[configurate your workspace](category/configuration)** then you it becomes very useful. Once you do so, head in to **[library section](features/library)** for more info.
