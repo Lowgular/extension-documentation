@@ -1,6 +1,6 @@
 {
-  "label": "Recipies",
-  "position": 4,
+  "label": "Templates configuration",
+  "position": 6,
   "link": {
     "type": "generated-index",
     "description": "There are already some samples of configuration and code prepared for you, choose a section that you are interested and use it for free!"
