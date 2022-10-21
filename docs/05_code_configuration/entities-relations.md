@@ -36,13 +36,13 @@ The relationship config is an object where they key is `the related entity id` a
 
 ### HTML
 
-This will allow you to [Add Component](docs/features/add-component) inside of HTML.
+This will allow you to [Add Component](docs/actions/routing) inside of HTML.
 
 It will also manage all the module imports between the components, which is super cool!
 
 ### CONSTRUCTOR
 
-This will allow you to [inject](/docs/features/inject) an entity in the Constructor
+This will allow you to inject an entity in the Constructor
 
 ### PROPERTY
 
@@ -50,7 +50,7 @@ This will allow you to [inject](/docs/features/inject) an entity in the Construc
 
 ### RETURN
 
-This will allow you to get a list of related entities when you [Add method](/docs/features/method#add-method)
+This will allow you to get a list of related entities when you [Add method](/docs/actions/method#add-method)
 
 ### PARAMETER
 
@@ -58,4 +58,4 @@ This will allow you to get a list of related entities when you [Add method](/doc
 
 ### IMPLEMENTS
 
-This allows you to related to `Abstraction` and [implement](/docs/features/Implement) it
+This allows you to related to `Abstraction` and Implement it

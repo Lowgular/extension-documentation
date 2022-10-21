@@ -93,7 +93,7 @@ There are a few types that are used. Play around with them and be creative. Your
 
 #### ANGULAR_COMPONENT
 
-This will create a class with @Component decorator and a [component module](/docs/coding-standards/modules#single-angular-modules) inside of `component-name.component-module.ts` in a same folder.
+This will create a class with @Component decorator and a [component module](/docs/code_configuration/modules#single-angular-modules) inside of `component-name.component-module.ts` in a same folder.
 
 ##### Config
 
@@ -113,21 +113,21 @@ The properties and their allowed values are:
 
 #### ANGULAR_SERVICE
 
-This will create a class with @Injectable decorator and a [service module](/docs/coding-standards/modules#single-angular-modules) inside of `service-name.$SUFFIX$-module.ts` in a same folder.
+This will create a class with @Injectable decorator and a [service module](/docs/code_configuration/modules#single-angular-modules) inside of `service-name.$SUFFIX$-module.ts` in a same folder.
 
 #### ANGULAR_DIRECTIVE
 
-This will create a class with @Directive decorator and a [directive module](/docs/coding-standards/modules#single-angular-modules) inside of `directive-name.$SUFFIX$-module.ts` in a same folder.
+This will create a class with @Directive decorator and a [directive module](/docs/code_configuration/modules#single-angular-modules) inside of `directive-name.$SUFFIX$-module.ts` in a same folder.
 
 #### ANGULAR_RESOLVER
 
-This will create a class with @Injectable decorator and a [resolver module](/docs/coding-standards/modules#single-angular-modules) inside of `resolver-name.$SUFFIX$-module.ts` in a same folder.
+This will create a class with @Injectable decorator and a [resolver module](/docs/code_configuration/modules#single-angular-modules) inside of `resolver-name.$SUFFIX$-module.ts` in a same folder.
 
 It will implement Resolve<void\> interface
 
 #### ANGULAR_GUARD
 
-This will create a class with @Injectable decorator and a [guard module](/docs/coding-standards/modules#single-angular-modules) inside of `service-name.$SUFFIX$-module.ts` in a same folder.
+This will create a class with @Injectable decorator and a [guard module](/docs/code_configuration/modules#single-angular-modules) inside of `service-name.$SUFFIX$-module.ts` in a same folder.
 
 It will implement CanActivate interface
 
@@ -161,7 +161,7 @@ The abstraction is used to de-couple the layers and support Dependency Inversion
 
 It should contain at least 1 method.
 
-There will be no module created because it is an interface, however it will be used by a connected [service module](/docs/coding-standards/modules#single-angular-modules) to provide injection tokens in implementing service class.
+There will be no module created because it is an interface, however it will be used by a connected [service module](/docs/code_configuration/modules#single-angular-modules) to provide injection tokens in implementing service class.
 
 ### Inside of
 
@@ -169,6 +169,6 @@ There will be no module created because it is an interface, however it will be u
 
 **Default:** App
 
-Entities are always created in projects. By default Angular CLI provides you with a single app, however it does not have to be this way, you may create [Libraries](/docs/features/library) which is a specific project type.
+Entities are always created in projects. By default Angular CLI provides you with a single app, however it does not have to be this way, you may create Libraries which is a specific project type.
 
 By default Lowgular will create all entities inside of **App**, however you may alter the configuration and use **Lib** instead.

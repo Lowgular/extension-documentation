@@ -36,7 +36,7 @@ Then you will see a list of entities to create.
 
 The default setup ships with a simple architecture: Component, Model and Service.
 
-You can configure the list, head in to the **[configuration section](category/configuration)** for more info.
+You can configure the list, head in to the **[configuration section](category/code-configuration)** for more info.
 
 ### Actions...
 
@@ -50,4 +50,4 @@ Then you will see a list of with available actions.
 
 The actions will differ depending on what type of file is open in the editor.
 
-You can explore more about actions when you head in to the **[features](category/features)** section
+You can explore more about actions when you head in to the **[features](category/actions)** section
