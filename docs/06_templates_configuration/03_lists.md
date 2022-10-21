@@ -30,3 +30,5 @@ This is how Lowgular will display container of the list. You can decide if you w
 **Required** property.
 
 This is how Lowgular will display item of the list. You can decide if you want use `li` or `mat-list-item` or maybe `option`.
+
+## Available global variables
