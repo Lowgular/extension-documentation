@@ -81,14 +81,14 @@ Set of Angular Material Templates.
       "item": "<mat-checkbox *ngFor=\"let $itemVariable$ of $listVariable$\">{{$itemVariable$}}</mat-checkbox>"
     }
   },
-  "details:": {
-    "content:": {
-      "container:": "<ng-container *ngIf=\"$detailVariable$ | async as $itemVariable$\">$content$</ng-container>",
-      "content:": "$content$"
+  "details": {
+    "content": {
+      "container": "<ng-container *ngIf=\"$detailVariable$ | async as $itemVariable$\">$content$</ng-container>",
+      "content": "$content$"
     },
-    "text:": {
-      "container:": "<ng-container *ngIf=\"$detailVariable$ | async as $itemVariable$\">$content$</ng-container>",
-      "content:": "{{ $itemVariable$ }}"
+    "text": {
+      "container": "<ng-container *ngIf=\"$detailVariable$ | async as $itemVariable$\">$content$</ng-container>",
+      "content": "{{ $itemVariable$ }}"
     }
   }
 }

@@ -4,10 +4,13 @@ sidebar_position: 2
 
 # Layouts
 
-Start by creating a `html-templates.json` file in your root workspace folder. The file should look like the one below:
+You can configure ready to use layouts, HTML snippets. These will appear in the `Actions...` -> `Display Layout` list.
 
 ```
 {
-  ...
+  "layouts:": {
+    "section": "<section></section>",
+    "yourFavouriteHtml": "<mat-card><mat-card-title></mat-card-title><mat-card-content></mat-card-content></mat-card>"
+  }
 }
 ```
