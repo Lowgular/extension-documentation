@@ -22,6 +22,6 @@ Add video! -->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GHhlgDCKkbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<!-- ## Display Component
+## Display Component
 
-Add video! -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ipZGMWTVNgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
